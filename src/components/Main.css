@@ -1,0 +1,15 @@
+.Main .top-section {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  justify-content: space-around;
+}
+
+.Main .about-book {
+  margin-left: 100px;
+}
+
+.Main img {
+  height: 300px;
+  width: 200px;
+}

@@ -1,0 +1,21 @@
+.Shop {
+  color: black;
+}
+
+.Shop ul {
+  list-style-type: none;
+  margin: 10px;
+}
+
+.Shop li {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.Shop a {
+  color: black;
+}
+
+.Shop .link-container {
+  margin: 10px;
+}

@@ -1,0 +1,23 @@
+.About {
+  font-family: "curlz-mt-regular", sans-serif;
+}
+
+.About .split-here {
+  display: flex;
+  justify-content: space-between;
+}
+
+.About h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.About img {
+  margin: 10px;
+  padding: 10px;
+}
+
+.About .about-side {
+  display: flex;
+  justify-content: center;
+}

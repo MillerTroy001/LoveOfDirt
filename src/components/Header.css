@@ -1,0 +1,48 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #5bc6e9;
+  text-decoration: none;
+}
+.Header h1 {
+  margin-left: 50px;
+  font-family: "Curlz", sans-serif;
+}
+
+.Header .h1-link {
+  text-decoration: none;
+  color: black;
+}
+
+.Header nav {
+  display: flex;
+  align-items: flex-end;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.Header button {
+  margin: 5px;
+}
+
+.Header ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.Header li {
+  list-style: none;
+  padding: 5px;
+  margin: 5px;
+  border-bottom: 1px solid black;
+}
+
+.Header li:hover {
+  background-color: lightslategrey;
+}
+
+.Header a {
+  color: black;
+  text-decoration: none;
+}
