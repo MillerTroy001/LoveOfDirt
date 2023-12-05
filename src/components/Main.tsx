@@ -9,7 +9,7 @@ const Main = () => {
         <img src={Elana} alt="Elana" />
         <div className="about-book">
           <p>
-            For the Love of Dirt follows Edlaina, an eight-year-old girl who is
+            For the Love of Dirt follows Elaina, an eight-year-old girl who is
             bored on the first day of summer vacation. After seeking advice from
             her neighboring grandparents, Edlaina begins growing a flower garden
             in her front yard. Misunderstandings brew, however, as Edlaina's
@@ -26,6 +26,11 @@ const Main = () => {
             However, readers of all ages can take away from the story's message
             of remembering and understanding other people's points of view.
           </p>
+        </div>
+        <div>
+          <div></div>
+          <div></div>
+          <div></div>
         </div>
       </div>
       <div className="middle-section">About the book</div>
