@@ -6,10 +6,36 @@
 }
 
 .Main .about-book {
-  margin-left: 100px;
+  margin-left: 10px;
 }
 
 .Main img {
   height: 300px;
   width: 200px;
+}
+
+.Main .about-header {
+  display: flex;
+  justify-content: center;
+}
+
+.Main .about-section-container {
+  border: 1px black solid;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Main .about-section-container p {
+  margin: 10px;
+}
+
+.Main .about-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Main .top-border {
+  border-bottom: 1px black solid;
 }

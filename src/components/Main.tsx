@@ -6,7 +6,6 @@ const Main = () => {
   return (
     <section className="Main">
       <div className="top-section">
-        <img src={Elana} alt="Elana" />
         <div className="about-book">
           <p>
             For the Love of Dirt follows Elaina, an eight-year-old girl who is
@@ -27,13 +26,22 @@ const Main = () => {
             of remembering and understanding other people's points of view.
           </p>
         </div>
-        <div>
-          <div></div>
-          <div></div>
-          <div></div>
+        <img src={Elana} alt="Elana" />
+      </div>
+      <div className="middle-section">
+        <h3 className="about-header">About the book</h3>
+        <div className="about-section-container">
+          <div className="about-details">
+            <p className="top-border">Length</p> <p>42 pages</p>
+          </div>
+          <div className="about-details">
+            <p className="top-border">Language</p> <p>English</p>
+          </div>
+          <div className="about-details">
+            <p className="top-border">Grade Level</p> <p>Kindergarden</p>
+          </div>
         </div>
       </div>
-      <div className="middle-section">About the book</div>
       <Footer />
     </section>
   );

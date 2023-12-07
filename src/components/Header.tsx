@@ -1,4 +1,5 @@
 import { Link, useNavigate } from "react-router-dom";
+import ElanaHead from "../assets/Elana_head.png";
 import "./Header.css";
 
 const Header = () => {
@@ -6,7 +7,8 @@ const Header = () => {
   return (
     <div className="Header">
       <Link className="h1-link" to={"/"}>
-        <h1 className="header">For the Love of Dirt</h1>
+        <img className="header-img" src={ElanaHead} alt="Elana" />
+        <h1>For the Love of Dirt</h1>
       </Link>
       <nav>
         <button className="header-button" onClick={() => navigate(`/about`)}>
